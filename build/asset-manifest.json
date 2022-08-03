@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc533aa9.css",
+    "main.js": "/static/js/main.0bb42add.js",
+    "static/media/edu.jpg": "/static/media/edu.34bd58fb10f8ed8b1d63.jpg",
+    "static/media/acheive.jpg": "/static/media/acheive.63f741ab362e33eae713.jpg",
+    "static/media/exp.jpg": "/static/media/exp.163533f75ff06267735d.jpg",
+    "static/media/about.jpg": "/static/media/about.3c5c1e44ea5b7d383fc2.jpg",
+    "static/media/certi.jpg": "/static/media/certi.0ca9b23ce2572b0d9657.jpg",
+    "static/media/tg.png": "/static/media/tg.398f871512d5ae0be061.png",
+    "static/media/cc.png": "/static/media/cc.2dd7f461061aadae0781.png",
+    "static/media/logo.png": "/static/media/logo.d9d7260626f64ab4fb10.png",
+    "static/media/meta.jpeg": "/static/media/meta.56269692dd955e56d80f.jpeg",
+    "static/media/git.jpg": "/static/media/git.4d31f3bcbcc8da91ef7a.jpg",
+    "static/media/back.jpg": "/static/media/back.373e3a0bc5d71a89e01b.jpg",
+    "static/media/sql.png": "/static/media/sql.5deda07826ac728058c7.png",
+    "index.html": "/index.html",
+    "main.cc533aa9.css.map": "/static/css/main.cc533aa9.css.map",
+    "main.0bb42add.js.map": "/static/js/main.0bb42add.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc533aa9.css",
+    "static/js/main.0bb42add.js"
+  ]
+}
