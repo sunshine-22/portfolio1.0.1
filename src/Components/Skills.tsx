@@ -7,7 +7,7 @@ export default function Skills() {
     const svg_to_image = (image_data : string) =>{
         const buff = new Buffer(image_data);
         const base64data = buff.toString('base64');
-        return <Image src={`data:image/svg+xml;base64,${base64data }`} alt="" />
+        return <img src={`data:image/svg+xml;base64,${base64data }`} alt="" />
     }
   return (
     <div>
@@ -18,7 +18,7 @@ export default function Skills() {
             {
                 SkillData.map((data)=>{
                     return(
-                    <div className='h-[100px] w-[100px]'>
+                    <div className='h-[100px] w-[100px]' key={data.id}>
                         {
                             svg_to_image(data.image)
                         }
