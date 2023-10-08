@@ -1,5 +1,6 @@
 import React from 'react'
 import { TestimondiaData } from '@/Database/TestimonialData'
+import Image from 'next/image'
 
 export default function Profiles() {
   return (
@@ -20,7 +21,7 @@ export default function Profiles() {
                     </div>
                   
                     <div className='ml-auto rounded-full w-[50px] h-[50px] cursor-pointer'>
-                      <img className='rounded-full' src={data.image}></img>
+                      <Image className='rounded-full' src={data.image} alt=''></Image>
                     </div>
                   </div>
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { ProjectData } from '@/Database/ProjectData'
+import Image from 'next/image'
 export default function Projects() {
   return (
     <div>
@@ -21,7 +22,7 @@ export default function Projects() {
                                             data.Stacks.map((data)=>{
                                                 return(
                                                     <div className='w-[50px] h-[50px] rounded-full bg-white ml-2'>
-                                                        <img src={data} className='p-[8px]'></img>
+                                                        <Image src={data} className='p-[8px]' alt=''></Image>
                                                     </div>
                                                 )
                                             })
@@ -41,7 +42,7 @@ export default function Projects() {
                                 </div>
                                 <div className='ml-5 col-span-5'>
                                     <div className='border m-5 h-[300px] rounded-lg'>
-                                        <img src={data.image} />
+                                        <Image src={data.image} alt='' />
                                     </div>
                                 </div>
                         </div>
