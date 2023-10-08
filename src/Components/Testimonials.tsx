@@ -12,7 +12,7 @@ export default function Profiles() {
           {
             TestimondiaData.map((data)=>{
               return(
-                <div className='border h-[200px] w-[400px] rounded-md cursor-pointer ml-7'>
+                <div className='border h-[200px] w-[400px] rounded-md cursor-pointer ml-7' key={data.id}>
                   <p className='font m-2 text-[16px]'>{data.description}</p>
                   <div className='m-2 flex'>
                     <div>
@@ -21,7 +21,7 @@ export default function Profiles() {
                     </div>
                   
                     <div className='ml-auto rounded-full w-[50px] h-[50px] cursor-pointer'>
-                      <Image className='rounded-full' src={data.image} alt=''></Image>
+                      <img className='rounded-full' src={data.image} alt=''></img>
                     </div>
                   </div>
                 </div>
