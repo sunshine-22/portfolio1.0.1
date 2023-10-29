@@ -6,13 +6,13 @@ export default function Profiles() {
   return (
     <div> 
         <div className='text-center mt-10'>
-            <p className='text-[55px] font-bold animate-fade-right animate-delay-[100ms] animate-ease-in'>Testimonials 👋</p>
+            <p className='text-[50px] md:text-[55px] font-bold animate-fade-right animate-delay-[100ms] animate-ease-in'>Testimonials 👋</p>
         </div>
-        <div className='mt-7 flex flex-wrap'>
+        <div className='mt-7 flex flex-wrap justify-evenly'>
           {
             TestimondiaData.map((data)=>{
               return(
-                <div className='border h-[200px] w-[400px] rounded-md cursor-pointer ml-7' key={data.id}>
+                <div className='border w-[400px] rounded-md cursor-pointer ml-7 m-3' key={data.id}>
                   <p className='font m-2 text-[16px]'>{data.description}</p>
                   <div className='m-2 flex'>
                     <div>
