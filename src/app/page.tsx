@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <div className='grid grid-cols-12 gap-1 place-content-center md:mt-14'>
-          <div className='col-start-1 col-end-12 md:col-end-7 h-[65vh] md:h-[200px] mt-[150px] md:mt-[230px]'>
+          <div className='col-start-1 col-end-12 md:col-end-7 h-[72vh] md:h-[200px] mt-[150px] md:mt-[230px]'>
               <p className='font-bold text-[55px] md:text-[60px] subpixel-antialiased animate-fade-right animate-duration-[1000ms] animate-ease-in ml-5 md:ml-11'>Hi, I'm sabarish</p>
               <p className='text-[15px] md:text-[18px] ml-5 md:ml-11 animate-fade-right animate-delay-[1100ms] animate-ease-in font-mono'>Full Stack Developer |Data Engineer |Android/Ios Developer |Cyber Analyst | Python Developer</p>
               <div className='flex justify-center animate-fade-up  animate-delay-[1200ms] animate-ease-in'>

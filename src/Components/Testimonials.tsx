@@ -1,6 +1,7 @@
 import React from 'react'
 import { TestimondiaData } from '@/Database/TestimonialData'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Profiles() {
   return (
@@ -12,19 +13,22 @@ export default function Profiles() {
           {
             TestimondiaData.map((data)=>{
               return(
-                <div className='border w-[400px] rounded-md cursor-pointer ml-7 m-3' key={data.id}>
-                  <p className='font m-2 text-[16px]'>{data.description}</p>
+                <Link href={data.url} key={data.id}>
+                  <div className='border w-[400px] rounded-md cursor-pointer ml-7 m-3' >
+                    <p className='font m-2 text-[16px]'>{data.description}</p>
                   <div className='m-2 flex'>
-                    <div>
-                      <p className='font-bold text-2xl'>{data.author}</p>
-                      <p className='text-[13px]'>{data.Designation}</p>
-                    </div>
+                  <div>
+                    <p className='font-bold text-2xl'>{data.author}</p>
+                    <p className='text-[13px]'>{data.Designation}</p>
+                  </div>
                   
-                    <div className='ml-auto rounded-full w-[50px] h-[50px] cursor-pointer'>
-                      <img className='rounded-full' src={data.image} alt=''></img>
-                    </div>
+                  <div className='ml-auto rounded-full w-[50px] h-[50px] cursor-pointer'>
+                    <img className='rounded-full' src={data.image} alt=''></img>
+                  </div>
                   </div>
                 </div>
+                </Link>
+               
               )
             })
           }
