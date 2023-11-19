@@ -14,7 +14,7 @@ export default function Profiles() {
             TestimondiaData.map((data)=>{
               return(
                 <Link href={data.url} key={data.id}>
-                  <div className='border w-[400px] rounded-md cursor-pointer ml-7 m-3' >
+                  <div className='border w-[370px] rounded-md cursor-pointer ml-5 m-3' >
                     <p className='font m-2 text-[16px]'>{data.description}</p>
                   <div className='m-2 flex'>
                   <div>
