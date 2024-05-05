@@ -1,22 +1,13 @@
-"use client";
 import Image from 'next/image'
-import Coder from "../../public/coder.png"
-import { About ,Stats, Experience, Skills, Projects, Gallery, Testimonials} from '@/Components'
+import Coder from "../../public/profile1.png"
+import { About ,Stats, Skills,Experience, Projects, Gallery, Testimonials} from '@/Components'
 import Link from 'next/link'
-import { redirect } from 'next/dist/server/api-utils'
-import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
-import head from "next/head";
-import script from "next/script";
+
 
 
 export default function Home() {
   return (
     <div>
-      
-      <TawkMessengerReact
-        propertyId={'6559f8afd600b968d314d878'}
-        widgetId={'1hfjn6se6'}
-      />
       <div className='grid grid-cols-12 gap-1 place-content-center md:mt-14'>
           <div className='col-start-1 col-end-12 md:col-end-7 h-[72vh] md:h-[200px] mt-[150px] md:mt-[230px]'>
               <p className='font-bold text-[55px] md:text-[60px] subpixel-antialiased animate-fade-right animate-duration-[1000ms] animate-ease-in ml-5 md:ml-11'>Hi, I'm sabarish</p>
