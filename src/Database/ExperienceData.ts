@@ -5,6 +5,16 @@ import tripsygo from "../../public/tipsygo.jpeg"
 import zoho from "../../public/zoho.png"
 import dsac from "../../public/dsac.png"
 
+interface ExpData{
+    id: string
+    position: string
+    organization: string
+    duration: string 
+    Description: string 
+    skills: any
+    link: string
+    image: any
+}
 
 
 export const ExperienceData = [

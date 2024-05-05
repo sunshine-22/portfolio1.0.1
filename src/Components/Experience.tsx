@@ -3,7 +3,7 @@ import { ExperienceData } from '@/Database/ExperienceData'
 import Link from "next/link";
 import "./about.css"
 import Image from 'next/image'
-import dev from "../../public/profile2.jpeg"
+
 
 
 export default function Experience() {
